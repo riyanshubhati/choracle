@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#choracle{
+    width: 200px;
+}
+#javaimage{
+    width: 150px;
+}
+.download-btn{
+    display: inline-flex;
+    background-color: green;
+    color: white;
+}
+#myheading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+
+.navbar{
+    
+    display: flex;
+    gap: 80px;
+}
+
+.navbar a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.navbar a:hover{
+    color: skyblue;
+    text-decoration: underline;
+}
+
+#download-btn{
+    background-color: green;
+}
+
+@keyframes myAnimates{
+    from{
+        transform: translateX(1px);
+    }
+    to{
+        transform: translateY(30px);
+    }
+}
+
+header #choracle{
+   animation: myAnimates 2s ease infinite alternate forwards ;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (max-width: 455px ){
+    body{
+        background-color: skyblue;
+        color: white;
+    }
+}
+
+#myParah{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#headingthree{
+    font-size: x-large;
+   color: rgb(205, 123, 123);
+    
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes boxanimation{
+    from{
+        background-color: red;
+
+    }
+    to{
+        background-color: green;
+    }
+}
+.box{
+    width: 400px;
+    background-color: yellow;
+    
+    height: 400px;
+    animation: boxanimation 1s ease infinite alternate forwards;
+    color: black;
+    font-size: xx-large;
+    overflow: scroll;
+
+}
+
+
+
+.note{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
